@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="icono.png" type="image-png">
+    
+</head>
+<body>
+    <header>
+        <h1>Ejercicios Basicos JS</h1>
+    </header>
+    <nav>
+      <h3>Calcular Edad</h3>
+    </nav>
+
+  <form>
+    <label for="numero1">nombre:</label><br>
+    <input type="text" id="nombre" required>
+
+    <label for="numero2">fecha nacimiento:</label><br>
+    <input type="date" id="fechaNacimiento" required>
+
+    <label for="edad">edad:</label><br>
+    <input type="text" disabled id="resultadoEdad">
+    <button type="button" onclick="calcularEdad()">calcular edad</button>
+    <button type="reset">cancelar</button>
+  </form>
+  <script src="script.js"></script>
+
+</body>
+</html>
